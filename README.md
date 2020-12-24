@@ -16,3 +16,4 @@
 
 8.Group data 
 
+9.Writing data to output 
