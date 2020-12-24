@@ -10,6 +10,9 @@
 
 5.Joining and combining data
 
-6.Sort data 
+6.Filter data
 
-7.Group data
+7.Sort data 
+
+8.Group data 
+
