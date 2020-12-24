@@ -9,3 +9,7 @@
 4.Data cleaning 
 
 5.Joining and combining data
+
+6.Sort data 
+
+7.Group data
