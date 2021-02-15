@@ -25,7 +25,7 @@
 Predict the future stock value of Fortune 500 companies
 
                              
-<b>1. IMPORT DATA </b>
+<b><u>1. IMPORT DATA </b></u>
 
 
 pd.read_csv(filename)	 # From a CSV file
@@ -46,7 +46,7 @@ pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lis
 
 <hr>
 
-<b>2. EXPLORE DATA </b>
+<b><u>2. EXPLORE DATA </b></u>
 
 df.shape() # Prints number of rows and columns in dataframe
 
@@ -80,7 +80,7 @@ df.std() # Returns the standard deviation of each column
 
 <hr>
 
-<b>3. SELECT DATA</b>
+<u><b>3. SELECT DATA</b></u>
 
 df[col] # Returns column with label col as Series
 
@@ -95,7 +95,7 @@ df.iloc[0,:] # First row
 df.iloc[0,0] # First element of first column
 <hr>
  
-<b>4. DATA CLEANINGM</b>
+<u><b>4. DATA CLEANINGM</b></u>
 
 df.columns = ['a','b','c'] # Renames columns
 
@@ -129,7 +129,7 @@ df.rename(index=lambda x: x + 1) # Mass renaming of index
 
 <hr>
 
-<b>5. JOINING AND COMBINING DATA </b>
+<u><b>5. JOINING AND COMBINING DATA </b></u>
 
 df1.append(df2) # Adds the rows in df1 to the end of df2 (columns should be identical)
 
@@ -140,7 +140,7 @@ df1.join(df2,on=col1,how='inner') # SQL-style joins the columns in df1 with the 
  
  <hr>
  
-<b>6. FILTER ,SORT AND GROUP DATA</b>
+<u><b>6. FILTER ,SORT AND GROUP DATA</b></u>
  
 df[df[col] > 0.5] # Rows where the col column is greater than 0.5
 
@@ -168,7 +168,7 @@ df.apply(np.max, axis=1) # Applies a function across each row
  
  <hr>
  
-<b>7. WRITING DATA TO OUTPUT</b>
+<u><b>7. WRITING DATA TO OUTPUT</b></u>
  
 df.to_csv(filename) # Writes to a CSV file
 
