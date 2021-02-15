@@ -22,7 +22,7 @@
 Predict the future stock value of Fortune 500 companies
 
                              
-1. IMPORT DATA 
+<b>1. IMPORT DATA </b>
 pd.read_csv(filename)	 # From a CSV file
 
 pd.read_table(filename) # From a delimited text file (like TSV)
@@ -39,7 +39,7 @@ pd.read_clipboard() # Takes the contents of your clipboard and passes it to read
 
 pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lists
 
-2. EXPLORE DATA 
+<b>2. EXPLORE DATA </b>
 
 df.shape() # Prints number of rows and columns in dataframe
 
@@ -71,8 +71,7 @@ df.median() # Returns the median of each column
 
 df.std() # Returns the standard deviation of each column
 
-
-3. SELECT DATA
+<b>3. SELECT DATA</b>
 
 df[col] # Returns column with label col as Series
 
@@ -86,7 +85,7 @@ df.iloc[0,:] # First row
 
 df.iloc[0,0] # First element of first column
  
-4. DATA CLEANING
+<b>4. DATA CLEANINGM</b>
 
 df.columns = ['a','b','c'] # Renames columns
 
@@ -118,7 +117,7 @@ df.set_index('column_one') # Changes the index
 
 df.rename(index=lambda x: x + 1) # Mass renaming of index
  
-5. JOINING AND COMBINING DATA 
+<b>5. JOINING AND COMBINING DATA </b>
 
 df1.append(df2) # Adds the rows in df1 to the end of df2 (columns should be identical)
 
@@ -127,7 +126,7 @@ pd.concat([df1, df2],axis=1) # Adds the columns in df1 to the end of df2 (rows s
 df1.join(df2,on=col1,how='inner') # SQL-style joins the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 
 'outer', 'inner'<strong> </strong>
  
- 6. FILTER ,SORT AND GROUP DATA
+<b>6. FILTER ,SORT AND GROUP DATA</b>
  
 df[df[col] > 0.5] # Rows where the col column is greater than 0.5
 
@@ -153,8 +152,7 @@ df.apply(np.mean) # Applies a function across each column
 
 df.apply(np.max, axis=1) # Applies a function across each row
  
- 
-7. WRITING DATA TO OUTPUT
+<b>7. WRITING DATA TO OUTPUT</b>
  
 df.to_csv(filename) # Writes to a CSV file
 
