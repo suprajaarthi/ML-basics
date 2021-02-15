@@ -25,7 +25,7 @@ Predict the future stock value of Fortune 500 companies
 
                              
 <b>1. IMPORT DATA </b>
-
+<hr>
 
 pd.read_csv(filename)	 # From a CSV file
 
