@@ -19,13 +19,14 @@
 8.Group data 
 
 9.Writing data to output 
+<hr>
 
 # Stock-Market-ML-Model-
 Predict the future stock value of Fortune 500 companies
 
                              
 <b>1. IMPORT DATA </b>
-<hr>
+
 
 pd.read_csv(filename)	 # From a CSV file
 
@@ -42,6 +43,8 @@ pd.read_html(url) # Parses an html URL, string or file and extracts tables to a 
 pd.read_clipboard() # Takes the contents of your clipboard and passes it to read_table()
 
 pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lists
+
+<hr>
 
 <b>2. EXPLORE DATA </b>
 
@@ -74,6 +77,8 @@ df.min() # Returns the lowest value in each column
 df.median() # Returns the median of each column
 
 df.std() # Returns the standard deviation of each column
+
+<hr>
 
 <b>3. SELECT DATA</b>
 
@@ -120,7 +125,9 @@ df.rename(columns={'old_name': 'new_ name'}) # Selective renaming
 df.set_index('column_one') # Changes the index
 
 df.rename(index=lambda x: x + 1) # Mass renaming of index
- 
+
+<hr>
+
 <b>5. JOINING AND COMBINING DATA </b>
 
 df1.append(df2) # Adds the rows in df1 to the end of df2 (columns should be identical)
@@ -129,6 +136,8 @@ pd.concat([df1, df2],axis=1) # Adds the columns in df1 to the end of df2 (rows s
 
 df1.join(df2,on=col1,how='inner') # SQL-style joins the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 
 'outer', 'inner'<strong> </strong>
+ 
+ <hr>
  
 <b>6. FILTER ,SORT AND GROUP DATA</b>
  
@@ -155,6 +164,8 @@ df.groupby(col1).agg(np.mean) # Finds the average across all columns for every u
 df.apply(np.mean) # Applies a function across each column
 
 df.apply(np.max, axis=1) # Applies a function across each row
+ 
+ <hr>
  
 <b>7. WRITING DATA TO OUTPUT</b>
  
