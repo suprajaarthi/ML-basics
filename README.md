@@ -1,5 +1,7 @@
 # ML-basics
 
+<B> STEPS IN A ML PROJECT </B>
+
 1.Import data
 
 2.Explore data
