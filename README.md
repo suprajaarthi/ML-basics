@@ -93,6 +93,7 @@ s.loc[0] # Selection by index (selects element at index 0)
 df.iloc[0,:] # First row
 
 df.iloc[0,0] # First element of first column
+<hr>
  
 <b>4. DATA CLEANINGM</b>
 
