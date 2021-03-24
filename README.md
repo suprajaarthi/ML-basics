@@ -28,35 +28,35 @@ Predict the future stock value of Fortune 500 companies
 <b><u>1. IMPORT DATA </b></u>
 
 
-pd.read_csv(filename)	 # From a CSV file
+- pd.read_csv(filename)	 # From a CSV file
 
-pd.read_table(filename) # From a delimited text file (like TSV)
+- pd.read_table(filename) # From a delimited text file (like TSV)
 
-pd.read_excel(filename) # From an Excel file
+- pd.read_excel(filename) # From an Excel file
 
-pd.read_sql(query, connection_object) # Reads from a SQL table/database
+- pd.read_sql(query, connection_object) # Reads from a SQL table/database
 
-pd.read_json(json_string) # Reads from a JSON formatted string, URL or file.
+- pd.read_json(json_string) # Reads from a JSON formatted string, URL or file.
 
-pd.read_html(url) # Parses an html URL, string or file and extracts tables to a list of dataframes
+- pd.read_html(url) # Parses an html URL, string or file and extracts tables to a list of dataframes
 
-pd.read_clipboard() # Takes the contents of your clipboard and passes it to read_table()
+- pd.read_clipboard() # Takes the contents of your clipboard and passes it to read_table()
 
-pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lists
+- pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lists
 
 <hr>
 
 <b><u>2. EXPLORE DATA </b></u>
 
-df.shape() # Prints number of rows and columns in dataframe
+- df.shape() # Prints number of rows and columns in dataframe
 
-df.head(n) # Prints first n rows of the DataFrame
+- df.head(n) # Prints first n rows of the DataFrame
 
-df.tail(n) # Prints last n rows of the DataFrame
+- df.tail(n) # Prints last n rows of the DataFrame
 
-df.info() # Index, Datatype and Memory information
+- df.info() # Index, Datatype and Memory information
 
-df.describe() # Summary statistics for numerical columns
+- df.describe() # Summary statistics for numerical columns
 
 s.value_counts(dropna=False) # Views unique values and counts
 
