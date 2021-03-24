@@ -111,74 +111,74 @@
 
 - s.fillna(s.mean()) # Replaces all null values with the mean (mean can be replaced with almost any function from the statistics section)
 
-s.astype(float) # Converts the datatype of the series to float
+- s.astype(float) # Converts the datatype of the series to float
 
-s.replace(1,'one') # Replaces all values equal to 1 with 'one'
+- s.replace(1,'one') # Replaces all values equal to 1 with 'one'
 
-s.replace([1,3],['one','three']) # Replaces all 1 with 'one' and 3 with 'three'
+- s.replace([1,3],['one','three']) # Replaces all 1 with 'one' and 3 with 'three'
 
-df.rename(columns=lambda x: x + 1) # Mass renaming of columns
+- df.rename(columns=lambda x: x + 1) # Mass renaming of columns
 
-df.rename(columns={'old_name': 'new_ name'}) # Selective renaming
+- df.rename(columns={'old_name': 'new_ name'}) # Selective renaming
 
-df.set_index('column_one') # Changes the index
+- df.set_index('column_one') # Changes the index
 
-df.rename(index=lambda x: x + 1) # Mass renaming of index
+- df.rename(index=lambda x: x + 1) # Mass renaming of index
 
 <hr>
 
 <u><b>5. JOINING AND COMBINING DATA </b></u>
 
-df1.append(df2) # Adds the rows in df1 to the end of df2 (columns should be identical)
+- df1.append(df2) # Adds the rows in df1 to the end of df2 (columns should be identical)
 
-pd.concat([df1, df2],axis=1) # Adds the columns in df1 to the end of df2 (rows should be identical)
+- pd.concat([df1, df2],axis=1) # Adds the columns in df1 to the end of df2 (rows should be identical)
 
-df1.join(df2,on=col1,how='inner') # SQL-style joins the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 
+- df1.join(df2,on=col1,how='inner') # SQL-style joins the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 
 'outer', 'inner'<strong> </strong>
  
  <hr>
  
 <u><b>6. FILTER ,SORT AND GROUP DATA</b></u>
  
-df[df[col] > 0.5] # Rows where the col column is greater than 0.5
+- df[df[col] > 0.5] # Rows where the col column is greater than 0.5
 
-df[(df[col] > 0.5) & (df[col] < 0.7)] # Rows where 0.5 < col < 0.7
+- df[(df[col] > 0.5) & (df[col] < 0.7)] # Rows where 0.5 < col < 0.7
 
-df.sort_values(col1) # Sorts values by col1 in ascending order
+- df.sort_values(col1) # Sorts values by col1 in ascending order
 
-df.sort_values(col2,ascending=False) # Sorts values by col2 in descending order
+- df.sort_values(col2,ascending=False) # Sorts values by col2 in descending order
 
-df.sort_values([col1,col2], ascending=[True,False]) # Sorts values by col1 in ascending order then col2 in descending order
+- df.sort_values([col1,col2], ascending=[True,False]) # Sorts values by col1 in ascending order then col2 in descending order
 
-df.groupby(col) # Returns a groupby object for values from one column
+- df.groupby(col) # Returns a groupby object for values from one column
 
-df.groupby([col1,col2]) # Returns a groupby object values from multiple columns
+- df.groupby([col1,col2]) # Returns a groupby object values from multiple columns
 
-df.groupby(col1)[col2].mean() # Returns the mean of the values in col2, grouped by the values in col1 (mean can be replaced with almost any function from the statistics section)
+- df.groupby(col1)[col2].mean() # Returns the mean of the values in col2, grouped by the values in col1 (mean can be replaced with almost any function from the statistics section)
 
-df.pivot_table(index=col1, values= col2,col3], aggfunc=mean) # Creates a pivot table that groups by col1 and calculates the mean of col2 and col3
+- df.pivot_table(index=col1, values= col2,col3], aggfunc=mean) # Creates a pivot table that groups by col1 and calculates the mean of col2 and col3
 
-df.groupby(col1).agg(np.mean) # Finds the average across all columns for every unique column 1 group
+- df.groupby(col1).agg(np.mean) # Finds the average across all columns for every unique column 1 group
 
-df.apply(np.mean) # Applies a function across each column
+- df.apply(np.mean) # Applies a function across each column
 
-df.apply(np.max, axis=1) # Applies a function across each row
+- df.apply(np.max, axis=1) # Applies a function across each row
  
  <hr>
  
 <u><b>7. WRITING DATA TO OUTPUT</b></u>
  
-df.to_csv(filename) # Writes to a CSV file
+- df.to_csv(filename) # Writes to a CSV file
 
-df.to_excel(filename) # Writes to an Excel file
+- df.to_excel(filename) # Writes to an Excel file
 
-df.to_sql(table_name, connection_object) # Writes to a SQL table
+- df.to_sql(table_name, connection_object) # Writes to a SQL table
 
-df.to_json(filename) # Writes to a file in JSON format
+- df.to_json(filename) # Writes to a file in JSON format
 
-df.to_html(filename) # Saves as an HTML table
+- df.to_html(filename) # Saves as an HTML table
 
-df.to_clipboard() # Writes to the clipboard
+- df.to_clipboard() # Writes to the clipboard
                                
 
 
