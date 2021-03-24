@@ -22,8 +22,6 @@
 <hr>
 
 # Stock-Market-ML-Model-
-Predict the future stock value of Fortune 500 companies
-
                              
 <b><u>1. IMPORT DATA </b></u>
 
@@ -58,41 +56,41 @@ Predict the future stock value of Fortune 500 companies
 
 - df.describe() # Summary statistics for numerical columns
 
-s.value_counts(dropna=False) # Views unique values and counts
+- s.value_counts(dropna=False) # Views unique values and counts
 
-df.apply(pd.Series.value_counts) # Unique values and counts for all columns
+- df.apply(pd.Series.value_counts) # Unique values and counts for all columns
 
-df.describe() # Summary statistics for numerical columns
+- df.describe() # Summary statistics for numerical columns
 
-df.mean() # Returns the mean of all columns
+- df.mean() # Returns the mean of all columns
 
-df.corr() # Returns the correlation between columns in a DataFrame
+- df.corr() # Returns the correlation between columns in a DataFrame
 
-df.count() # Returns the number of non-null values in each DataFrame column
+- df.count() # Returns the number of non-null values in each DataFrame column
 
-df.max() # Returns the highest value in each column
+- df.max() # Returns the highest value in each column
 
-df.min() # Returns the lowest value in each column
+- df.min() # Returns the lowest value in each column
 
-df.median() # Returns the median of each column
+- df.median() # Returns the median of each column
 
-df.std() # Returns the standard deviation of each column
+- df.std() # Returns the standard deviation of each column
 
 <hr>
 
 <u><b>3. SELECT DATA</b></u>
 
-df[col] # Returns column with label col as Series
+- df[col] # Returns column with label col as Series
 
-df[[col1, col2]] # Returns Columns as a new DataFrame
+- df[[col1, col2]] # Returns Columns as a new DataFrame
 
-s.iloc[0] # Selection by position (selects first element)
+- s.iloc[0] # Selection by position (selects first element)
 
-s.loc[0] # Selection by index (selects element at index 0)
+- s.loc[0] # Selection by index (selects element at index 0)
 
-df.iloc[0,:] # First row
+- df.iloc[0,:] # First row
 
-df.iloc[0,0] # First element of first column
+- df.iloc[0,0] # First element of first column
 <hr>
  
 <u><b>4. DATA CLEANINGM</b></u>
