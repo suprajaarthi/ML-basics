@@ -1,5 +1,7 @@
 # ML-basics
 
+https://s3.amazonaws.com/thinkific/file_uploads/118220/attachments/184/63e/f6b/Regex_Cheatsheet.pdf 
+
 <B> STEPS IN A ML PROJECT </B>
 
 1.Import data
