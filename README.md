@@ -1,5 +1,7 @@
 # ML-basics
 
+70+ Datascience Chaetsheets => https://www.mltut.com/data-science-cheat-sheets/ 
+
 https://s3.amazonaws.com/thinkific/file_uploads/118220/attachments/184/63e/f6b/Regex_Cheatsheet.pdf 
 
 https://www.cs.ryerson.ca/~aharley/neural-networks/
