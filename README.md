@@ -6,6 +6,8 @@ https://s3.amazonaws.com/thinkific/file_uploads/118220/attachments/184/63e/f6b/R
 
 https://www.cs.ryerson.ca/~aharley/neural-networks/
 
+https://mega.nz/folder/RAMkFCbR#plQOfgNiciGHiBoJqS_UZQ
+
 https://learning.edureka.co/classroom/presentation/1423/11872/1472381?tab=CourseContent
 
 <B> STEPS IN A ML PROJECT </B>
