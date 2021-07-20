@@ -1,5 +1,7 @@
 # ML-basics
 
+<img src="https://media-exp3.licdn.com/dms/image/C4E22AQEIwAA-e_Nu6g/feedshare-shrink_2048_1536/0/1626680491405?e=1629936000&v=beta&t=k6qdFsm82VjEh9Jb96byLckXDCrCBQr-cOJA3Kjnwx8">
+
 70+ Datascience Chaetsheets => https://www.mltut.com/data-science-cheat-sheets/ 
 
 https://s3.amazonaws.com/thinkific/file_uploads/118220/attachments/184/63e/f6b/Regex_Cheatsheet.pdf 
